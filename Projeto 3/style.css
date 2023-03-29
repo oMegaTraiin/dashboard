@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+div{
+    display: inline;
+}
+/* Cores da Logo */
+div.header-my{
+    color: white;
+    margin-left: 50px;
+    font-family: fantasy;
+    font-size: 50px;
+}
+div.header-text{
+    color: aqua;
+    font-family: fantasy;
+    font-size: 50px;
+}
+/* Alterar cor do background da pagina toda; */
+body{
+    background-color: #50577A;
+}
+/* Alterar marcado das ul; */
+ul{
+    list-style-type: decimal;
+} 
+/* Barra do topo da pagina; */
+header{
+    background-color: #404258;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: solid 1px #6B728E;
+}
+/* Alterar cor dos elementos na barra inicial; */
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+    
+}
+/* Separar elementos na barra inicial */
+div.h1-separa{
+    margin-left: 3%;
+}
+h1{
+    background-color: #474E68;
+    color: white;
+    font-size: 14px;
+    font-family: Sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #6B728E;
+}
+h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    border: solid 2px #fff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-family: Sans-serif;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+footer{
+    background-color: #6B728E;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-top: solid 1px #404258;
+}
