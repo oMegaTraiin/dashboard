@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Josefin Sans;
+}
+
+.head{
+    background-image: url(/imagens/fundo.jpeg);
+    background-repeat: repeat-y;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+.head ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.head a:hover{
+    color: #fff;
+}
+
+.head h1{
+    font-family: Lobster;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.head h2{
+    font-family: Josefin Sans;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+.center{
+    text-align: center;
+    font-size: 50px;
+    background-color: brown;
+    border: 1px solid brown;
+    color: bisque;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu{
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.logo{
+    height: 100px;
+}
