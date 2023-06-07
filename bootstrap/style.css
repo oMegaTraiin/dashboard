@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line{
+    background-color: chartreuse;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer__logo{
+    text-align: left;
+}
+
+.footer__logo img{
+    height: 32px;
+}
+
+.footer__midia {
+    text-align: right;
+    color: white;
+}
+
+.footer__midia img{
+    height: 16px;
+}
+
+.footer__institucional {
+    text-align: left;
+}
+
+.footer__institucional ul{
+    text-decoration: none;
+    list-style-type: none;    
+}
+
+.footer__contatos{
+    text-align: right;
+}
